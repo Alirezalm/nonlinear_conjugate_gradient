@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h">
+			<Option target="nonlinear_conjugate_gradient"/>
+		</Unit>
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/methods.h">
+			<Option target="nonlinear_conjugate_gradient"/>
+		</Unit>
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h">
+			<Option target="nonlinear_conjugate_gradient"/>
+		</Unit>
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/main.cpp">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
