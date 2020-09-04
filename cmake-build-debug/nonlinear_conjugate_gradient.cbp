@@ -85,7 +85,10 @@
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
-		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/methods.h">
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h">
+			<Option target="nonlinear_conjugate_gradient"/>
+		</Unit>
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h">
