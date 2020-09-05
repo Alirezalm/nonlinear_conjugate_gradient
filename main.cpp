@@ -1,6 +1,6 @@
 #include <iostream>
 #include "includes/problem.h"
-#include <random>
+
 /*
  * Test file
  */
@@ -22,7 +22,7 @@ int main() {
     objtype obj = [&c, &H] (vec x) -> scalar {return 0.5 * x.dot(H*x) + c.dot(x);};
     gradtype grad = [&c, &H] (vec x) -> vec {return H * x + c;};
 
-    Problem<objtype, gradtype> P{obj, grad};
+    Problem P{obj, grad};
 
     vec x = vec :: Random(n,1);
     std :: string method = "CG";

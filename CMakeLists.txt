@@ -3,4 +3,4 @@ project(nonlinear_conjugate_gradient)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(nonlinear_conjugate_gradient main.cpp  includes/problem.h includes/cg.h  includes/external_libs.h includes/line_search.h)
+add_executable(nonlinear_conjugate_gradient main.cpp  includes/problem.h includes/cg.h  includes/external_libs.h includes/line_search.h src/problem.cpp src/cg.cpp)

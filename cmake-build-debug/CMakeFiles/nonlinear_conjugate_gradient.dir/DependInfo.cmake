@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/main.cpp" "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.o"
+  "/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/main.cpp" "/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.o"
+  "/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/src/cg.cpp" "/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o"
+  "/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/src/problem.cpp" "/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

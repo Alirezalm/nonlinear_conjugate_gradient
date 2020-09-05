@@ -68,10 +68,10 @@ RM = /home/alireza/Downloads/clion-2020.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient
+CMAKE_SOURCE_DIR = /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -170,6 +170,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/cg.o: src/cg.cpp.o
+
+.PHONY : src/cg.o
+
+# target to build an object file
+src/cg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o
+.PHONY : src/cg.cpp.o
+
+src/cg.i: src/cg.cpp.i
+
+.PHONY : src/cg.i
+
+# target to preprocess a source file
+src/cg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.i
+.PHONY : src/cg.cpp.i
+
+src/cg.s: src/cg.cpp.s
+
+.PHONY : src/cg.s
+
+# target to generate assembly for a file
+src/cg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.s
+.PHONY : src/cg.cpp.s
+
+src/problem.o: src/problem.cpp.o
+
+.PHONY : src/problem.o
+
+# target to build an object file
+src/problem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o
+.PHONY : src/problem.cpp.o
+
+src/problem.i: src/problem.cpp.i
+
+.PHONY : src/problem.i
+
+# target to preprocess a source file
+src/problem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.i
+.PHONY : src/problem.cpp.i
+
+src/problem.s: src/problem.cpp.s
+
+.PHONY : src/problem.s
+
+# target to generate assembly for a file
+src/problem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s
+.PHONY : src/problem.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +236,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/cg.o"
+	@echo "... src/cg.i"
+	@echo "... src/cg.s"
+	@echo "... src/problem.o"
+	@echo "... src/problem.i"
+	@echo "... src/problem.s"
 .PHONY : help
 
 

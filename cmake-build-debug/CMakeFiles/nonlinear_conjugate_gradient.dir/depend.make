@@ -6,3 +6,12 @@ CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.o: ../includes/external_lib
 CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.o: ../includes/problem.h
 CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o: ../includes/cg.h
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o: ../includes/external_libs.h
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o: ../src/cg.cpp
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o: ../includes/cg.h
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o: ../includes/external_libs.h
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o: ../includes/problem.h
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o: ../src/problem.cpp
+

@@ -1,3 +1,3 @@
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir

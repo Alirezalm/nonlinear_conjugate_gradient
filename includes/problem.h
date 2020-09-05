@@ -9,35 +9,28 @@
 #ifndef NONLINEAR_CONJUGATE_GRADIENT_PROBLEM_H
 #define NONLINEAR_CONJUGATE_GRADIENT_PROBLEM_H
 
-template<typename ObjFunc, typename GradFunc>
-
 class Problem {
 
 
 public:
-    Problem(ObjFunc &obj_func, GradFunc &grad_func); // default constructor
+    Problem(objtype &obj_func, gradtype &grad_func); // default constructor
 
-    void solve(std:: string &method, vec &init);
+    void solve(std::string &method, vec &init);
+
 private:
-    ObjFunc obj_func;
-    GradFunc grad_func;
+    objtype obj_func;
+    gradtype grad_func;
 
 
 };
 
-template<typename ObjFunc, typename GradFunc>
-Problem<ObjFunc, GradFunc>::Problem(ObjFunc &obj_func, GradFunc &grad_func) {
-    this ->obj_func = obj_func;
-    this -> grad_func = grad_func;
 
-}
-
-template<typename ObjFunc, typename GradFunc>
-void Problem<ObjFunc, GradFunc>::solve(std::string &method, vec &init) {
-    if (method == "CG"){
-        cg(obj_func, grad_func, init);
-    };
-}
+//template<typename ObjFunc, typename GradFunc>
+//void Problem<ObjFunc, GradFunc>::solve(std::string &method, vec &init) {
+//    if (method == "CG"){
+//        cg(obj_func, grad_func, init);
+//    };
+//}
 
 
 

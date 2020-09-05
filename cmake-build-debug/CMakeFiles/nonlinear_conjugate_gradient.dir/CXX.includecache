@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/cg.h
 external_libs.h
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/external_libs.h
 
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/external_libs.h
 eigen3/Eigen/Dense
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen3/Eigen/Dense
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/eigen3/Eigen/Dense
 iostream
 -
 iostream
@@ -26,15 +26,13 @@ string
 chrono
 -
 
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/problem.h
 cg.h
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/cg.h
 
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/main.cpp
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/main.cpp
 iostream
 -
 includes/problem.h
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
-random
--
+/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/includes/problem.h
 
