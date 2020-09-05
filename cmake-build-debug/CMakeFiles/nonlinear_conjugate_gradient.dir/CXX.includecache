@@ -23,6 +23,8 @@ cmath
 -
 string
 -
+chrono
+-
 
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
 cg.h
@@ -33,4 +35,6 @@ iostream
 -
 includes/problem.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
+random
+-
 

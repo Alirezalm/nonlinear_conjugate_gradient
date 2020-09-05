@@ -1,30 +1,35 @@
 #include <iostream>
 #include "includes/problem.h"
-
+#include <random>
 /*
  * Test file
  */
 int main() {
     srand(clock());
-    using Mat = Eigen::MatrixXd;
-    using Vec = Eigen::VectorXd;
-    using Scalar = typename Mat::Scalar;
-
     int  n;
     std::cout << "enter the problem size: ";
     std::cin >> n;
-    Vec c = Vec :: Random(n,1);
+    mat A = mat :: Random(n,n);
+    mat H = 0.5 * (A.transpose() + A);
+    vec r (n,1);
+    for (int i = 0; i < n ; ++i) {
+        r[i] = static_cast<double>(rand()) / (RAND_MAX );
+    }
+    mat Q = r.asDiagonal();
+    H = H.transpose() * Q * H;
+    vec c = vec :: Random(n,1);
 
-    std::function<Vec (Vec)>  obj = [c] (Vec x) -> Vec {return 0.5 * x.transpose() * x + c.transpose() * x;};
-    std::function<Vec(Vec)>  grad = [c] (Vec x) -> Vec {return x + c;};
+    objtype obj = [&c, &H] (vec x) -> scalar {return 0.5 * x.dot(H*x) + c.dot(x);};
+    gradtype grad = [&c, &H] (vec x) -> vec {return H * x + c;};
 
-    Problem<std::function<Vec (Vec)>, std::function<Vec (Vec)>> P{obj, grad};
-    Vec x = Vec :: Random(n,1);
+    Problem<objtype, gradtype> P{obj, grad};
+
+    vec x = vec :: Random(n,1);
     std :: string method = "CG";
     P.solve(method, x);
 
 
 
-    std::cout << "everything is working well"<< std::endl;
+    std::cout << "done!" << std::endl;
     return 0;
 }
