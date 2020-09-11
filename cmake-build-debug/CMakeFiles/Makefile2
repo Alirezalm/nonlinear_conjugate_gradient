@@ -64,10 +64,10 @@ RM = /home/alireza/Downloads/clion-2020.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient
+CMAKE_SOURCE_DIR = /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/nonlinear_conjugate_gradient.dir/clean
 CMakeFiles/nonlinear_conjugate_gradient.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target nonlinear_conjugate_gradient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target nonlinear_conjugate_gradient"
 .PHONY : CMakeFiles/nonlinear_conjugate_gradient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nonlinear_conjugate_gradient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/nonlinear_conjugate_gradient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/nonlinear_conjugate_gradient.dir/rule
 
 # Convenience name for target.

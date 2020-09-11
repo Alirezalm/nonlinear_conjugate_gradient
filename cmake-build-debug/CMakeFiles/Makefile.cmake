@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.17.3/CMakeSystem.cmake"
   "/home/alireza/Downloads/clion-2020.2/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "/home/alireza/Downloads/clion-2020.2/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
   "/home/alireza/Downloads/clion-2020.2/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -33,6 +29,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alireza/Downloads/clion-2020.2/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake"
   "/home/alireza/Downloads/clion-2020.2/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
   "/home/alireza/Downloads/clion-2020.2/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.17.3/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

@@ -68,10 +68,10 @@ RM = /home/alireza/Downloads/clion-2020.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient
+CMAKE_SOURCE_DIR = /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Desktop/alireza/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ nonlinear_conjugate_gradient/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/build
 .PHONY : nonlinear_conjugate_gradient/fast
 
-main.o: main.cpp.o
+random_test.o: random_test.cpp.o
 
-.PHONY : main.o
+.PHONY : random_test.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.o
-.PHONY : main.cpp.o
+random_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/random_test.cpp.o
+.PHONY : random_test.cpp.o
 
-main.i: main.cpp.i
+random_test.i: random_test.cpp.i
 
-.PHONY : main.i
+.PHONY : random_test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.i
-.PHONY : main.cpp.i
+random_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/random_test.cpp.i
+.PHONY : random_test.cpp.i
 
-main.s: main.cpp.s
+random_test.s: random_test.cpp.s
 
-.PHONY : main.s
+.PHONY : random_test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/main.cpp.s
-.PHONY : main.cpp.s
+random_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/random_test.cpp.s
+.PHONY : random_test.cpp.s
 
 src/cg.o: src/cg.cpp.o
 
@@ -233,9 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nonlinear_conjugate_gradient"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... random_test.o"
+	@echo "... random_test.i"
+	@echo "... random_test.s"
 	@echo "... src/cg.o"
 	@echo "... src/cg.i"
 	@echo "... src/cg.s"
