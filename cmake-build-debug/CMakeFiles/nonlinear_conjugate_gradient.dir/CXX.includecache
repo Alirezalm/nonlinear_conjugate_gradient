@@ -30,9 +30,9 @@ chrono
 cg.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
 
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/random_test.cpp
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp
 iostream
 -
-includes/problem.h
+../includes/problem.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
 

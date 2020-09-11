@@ -143,33 +143,6 @@ nonlinear_conjugate_gradient/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/build
 .PHONY : nonlinear_conjugate_gradient/fast
 
-random_test.o: random_test.cpp.o
-
-.PHONY : random_test.o
-
-# target to build an object file
-random_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/random_test.cpp.o
-.PHONY : random_test.cpp.o
-
-random_test.i: random_test.cpp.i
-
-.PHONY : random_test.i
-
-# target to preprocess a source file
-random_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/random_test.cpp.i
-.PHONY : random_test.cpp.i
-
-random_test.s: random_test.cpp.s
-
-.PHONY : random_test.s
-
-# target to generate assembly for a file
-random_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/random_test.cpp.s
-.PHONY : random_test.cpp.s
-
 src/cg.o: src/cg.cpp.o
 
 .PHONY : src/cg.o
@@ -224,6 +197,33 @@ src/problem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s
 .PHONY : src/problem.cpp.s
 
+tests/random_test.o: tests/random_test.cpp.o
+
+.PHONY : tests/random_test.o
+
+# target to build an object file
+tests/random_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o
+.PHONY : tests/random_test.cpp.o
+
+tests/random_test.i: tests/random_test.cpp.i
+
+.PHONY : tests/random_test.i
+
+# target to preprocess a source file
+tests/random_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.i
+.PHONY : tests/random_test.cpp.i
+
+tests/random_test.s: tests/random_test.cpp.s
+
+.PHONY : tests/random_test.s
+
+# target to generate assembly for a file
+tests/random_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.s
+.PHONY : tests/random_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,15 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nonlinear_conjugate_gradient"
-	@echo "... random_test.o"
-	@echo "... random_test.i"
-	@echo "... random_test.s"
 	@echo "... src/cg.o"
 	@echo "... src/cg.i"
 	@echo "... src/cg.s"
 	@echo "... src/problem.o"
 	@echo "... src/problem.i"
 	@echo "... src/problem.s"
+	@echo "... tests/random_test.o"
+	@echo "... tests/random_test.i"
+	@echo "... tests/random_test.s"
 .PHONY : help
 
 
