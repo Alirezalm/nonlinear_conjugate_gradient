@@ -9,30 +9,16 @@
 #ifndef NONLINEAR_CONJUGATE_GRADIENT_PROBLEM_H
 #define NONLINEAR_CONJUGATE_GRADIENT_PROBLEM_H
 
-class Problem {
-
-
+class Problem {//optimization problem class
 public:
     Problem(objtype &obj_func, gradtype &grad_func); // default constructor
 
-    void solve(std::string &method, vec &init);
+    void solve(std::string &method, vec &init); //nonlinear conjugate gradient solver starts
 
 private:
-    objtype obj_func;
-    gradtype grad_func;
+    objtype obj_func; //user function
+    gradtype grad_func;//user grad function
 
 
 };
-
-
-//template<typename ObjFunc, typename GradFunc>
-//void Problem<ObjFunc, GradFunc>::solve(std::string &method, vec &init) {
-//    if (method == "CG"){
-//        cg(obj_func, grad_func, init);
-//    };
-//}
-
-
-
-
 #endif //NONLINEAR_CONJUGATE_GRADIENT_PROBLEM_H

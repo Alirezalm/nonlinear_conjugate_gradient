@@ -1,6 +1,5 @@
 #include <iostream>
 #include "../includes/problem.h"
-
 /*
  * Test file
  */
