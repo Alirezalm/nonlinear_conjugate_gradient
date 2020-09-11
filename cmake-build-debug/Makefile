@@ -170,6 +170,33 @@ src/cg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.s
 .PHONY : src/cg.cpp.s
 
+src/line_search.o: src/line_search.cpp.o
+
+.PHONY : src/line_search.o
+
+# target to build an object file
+src/line_search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o
+.PHONY : src/line_search.cpp.o
+
+src/line_search.i: src/line_search.cpp.i
+
+.PHONY : src/line_search.i
+
+# target to preprocess a source file
+src/line_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.i
+.PHONY : src/line_search.cpp.i
+
+src/line_search.s: src/line_search.cpp.s
+
+.PHONY : src/line_search.s
+
+# target to generate assembly for a file
+src/line_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.s
+.PHONY : src/line_search.cpp.s
+
 src/problem.o: src/problem.cpp.o
 
 .PHONY : src/problem.o
@@ -236,6 +263,9 @@ help:
 	@echo "... src/cg.o"
 	@echo "... src/cg.i"
 	@echo "... src/cg.s"
+	@echo "... src/line_search.o"
+	@echo "... src/line_search.i"
+	@echo "... src/line_search.s"
 	@echo "... src/problem.o"
 	@echo "... src/problem.i"
 	@echo "... src/problem.s"

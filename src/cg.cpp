@@ -5,23 +5,21 @@
 #include "../includes/cg.h"
 
 void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
-    auto start = time_measure::high_resolution_clock::now();
-    const int n = init.size();
-    vec &x = init;
-    scalar f = obj_func(x);
-    vec g = grad_func(x);
+    auto start = time_measure::high_resolution_clock::now(); // start measuring time
+    vec &x = init; // vector of initial condition
+    scalar f = obj_func(x); //initial objective value
+    vec g = grad_func(x);   //initial gradient information
     vec old_g = g;
-    vec p = -g;
+    vec p = -g; //initial conjugate direction
     scalar error = g.norm();
     scalar eps = 1e-5;
-    scalar alpha;
+    scalar alpha; //step length
     scalar beta;
-    int max_iter = 30000;
+    const int max_iter = 30000;
     int iter = 0;
-//    std::cout << "nonlinear CG is running..." << std::endl;
     while ((error > eps) && iter < max_iter) {
         iter++;
-        alpha = 0.01; // wolfe line search has not been implemented.
+        alpha = line_search(); // wolfe line search has not been implemented.
         x += alpha * p;
 
         g = grad_func(x);
@@ -38,7 +36,7 @@ void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
     }
     auto end = time_measure::high_resolution_clock::now();
     auto duration = time_measure::duration_cast<time_measure::milliseconds>(end - start);
-    std::cout << "\n\n|-------------------------------------|" << std::endl;
+    std::cout << "|-------------------------------------|" << std::endl;
     std::cout << "|nonlinear CG terminated successfully.|" << std::endl;
     std::cout << "|-------------------------------------|" << std::endl;
     std::cout << "          solution information         " << std::endl;

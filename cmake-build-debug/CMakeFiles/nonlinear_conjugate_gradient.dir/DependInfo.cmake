@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp" "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o"
+  "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp" "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o"
   "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp" "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o"
   "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp" "/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o"
   )

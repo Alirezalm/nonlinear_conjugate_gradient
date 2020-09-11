@@ -15,8 +15,6 @@ eigen3/Eigen/Dense
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen3/Eigen/Dense
 iostream
 -
-iostream
--
 functional
 -
 cmath
@@ -26,13 +24,7 @@ string
 chrono
 -
 
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
-cg.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp
+../includes/cg.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
-
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp
-iostream
--
-../includes/problem.h
-/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
 
