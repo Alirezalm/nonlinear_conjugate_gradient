@@ -224,32 +224,59 @@ src/problem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s
 .PHONY : src/problem.cpp.s
 
-tests/random_test.o: tests/random_test.cpp.o
+tests/eigen_omp_oprod.o: tests/eigen_omp_oprod.cpp.o
 
-.PHONY : tests/random_test.o
+.PHONY : tests/eigen_omp_oprod.o
 
 # target to build an object file
-tests/random_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o
-.PHONY : tests/random_test.cpp.o
+tests/eigen_omp_oprod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o
+.PHONY : tests/eigen_omp_oprod.cpp.o
 
-tests/random_test.i: tests/random_test.cpp.i
+tests/eigen_omp_oprod.i: tests/eigen_omp_oprod.cpp.i
 
-.PHONY : tests/random_test.i
+.PHONY : tests/eigen_omp_oprod.i
 
 # target to preprocess a source file
-tests/random_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.i
-.PHONY : tests/random_test.cpp.i
+tests/eigen_omp_oprod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.i
+.PHONY : tests/eigen_omp_oprod.cpp.i
 
-tests/random_test.s: tests/random_test.cpp.s
+tests/eigen_omp_oprod.s: tests/eigen_omp_oprod.cpp.s
 
-.PHONY : tests/random_test.s
+.PHONY : tests/eigen_omp_oprod.s
 
 # target to generate assembly for a file
-tests/random_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.s
-.PHONY : tests/random_test.cpp.s
+tests/eigen_omp_oprod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.s
+.PHONY : tests/eigen_omp_oprod.cpp.s
+
+tests/log_reg_random_test.o: tests/log_reg_random_test.cpp.o
+
+.PHONY : tests/log_reg_random_test.o
+
+# target to build an object file
+tests/log_reg_random_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o
+.PHONY : tests/log_reg_random_test.cpp.o
+
+tests/log_reg_random_test.i: tests/log_reg_random_test.cpp.i
+
+.PHONY : tests/log_reg_random_test.i
+
+# target to preprocess a source file
+tests/log_reg_random_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.i
+.PHONY : tests/log_reg_random_test.cpp.i
+
+tests/log_reg_random_test.s: tests/log_reg_random_test.cpp.s
+
+.PHONY : tests/log_reg_random_test.s
+
+# target to generate assembly for a file
+tests/log_reg_random_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nonlinear_conjugate_gradient.dir/build.make CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.s
+.PHONY : tests/log_reg_random_test.cpp.s
 
 # Help Target
 help:
@@ -269,9 +296,12 @@ help:
 	@echo "... src/problem.o"
 	@echo "... src/problem.i"
 	@echo "... src/problem.s"
-	@echo "... tests/random_test.o"
-	@echo "... tests/random_test.i"
-	@echo "... tests/random_test.s"
+	@echo "... tests/eigen_omp_oprod.o"
+	@echo "... tests/eigen_omp_oprod.i"
+	@echo "... tests/eigen_omp_oprod.s"
+	@echo "... tests/log_reg_random_test.o"
+	@echo "... tests/log_reg_random_test.i"
+	@echo "... tests/log_reg_random_test.s"
 .PHONY : help
 
 

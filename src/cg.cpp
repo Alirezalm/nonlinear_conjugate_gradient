@@ -5,6 +5,7 @@
 #include "../includes/cg.h"
 
 void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
+
     auto start = time_measure::high_resolution_clock::now(); // start measuring time
     vec &x = init; // vector of initial condition
     scalar f = obj_func(x); //initial objective value
@@ -12,14 +13,20 @@ void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
     vec old_g = g;
     vec p = -g; //initial conjugate direction
     scalar error = g.norm();
-    scalar eps = 1e-5;
-    scalar alpha; //step length
+    scalar eps = 5e-3;
+    scalar alpha, alpha_old = 0.01; //step length
     scalar beta;
-    const int max_iter = 30000;
+    const int max_iter = 5000;
     int iter = 0;
+
     while ((error > eps) && iter < max_iter) {
         iter++;
-        alpha = line_search(); // wolfe line search has not been implemented.
+//        if (error <= 1e-3){
+//            alpha = alpha_old;
+//        }else{
+            alpha = line_search(obj_func,grad_func, x, p, alpha_old);
+//            alpha = 0.1;
+//        }
         x += alpha * p;
 
         g = grad_func(x);
@@ -27,11 +34,11 @@ void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
         old_g = g;
 
         p = -g + (beta * p);
-
+        alpha_old = alpha;
         error = g.norm();
         f = obj_func(x);
 
-        std::cout << "iter " << iter << " fval: " << f << " error: " << error << std::endl;
+//        std::cout << "iter " << iter << " fval: " << f << " error: " << error << " alpha: " << alpha << std::endl;
 
     }
     auto end = time_measure::high_resolution_clock::now();

@@ -7,6 +7,7 @@
 
 #include "external_libs.h"
 #include "line_search.h"
+#include "eigen_omp_oprod.h"
 void cg(objtype &obj_func, gradtype &grad_func, vec &init);
 
 

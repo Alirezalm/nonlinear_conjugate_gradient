@@ -12,7 +12,7 @@ int main() {
     mat H = 0.5 * (A.transpose() + A);
     vec r (n,1);
     for (int i = 0; i < n ; ++i) {
-        r[i] = static_cast<double>(rand()) / (RAND_MAX );
+        r[i] = (static_cast<double>(rand()) / (RAND_MAX )) + 1;
     }
     mat Q = r.asDiagonal();
     H = H.transpose() * Q * H;

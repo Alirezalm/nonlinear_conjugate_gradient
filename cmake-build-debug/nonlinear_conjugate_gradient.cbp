@@ -85,6 +85,9 @@
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h">
+			<Option target="nonlinear_conjugate_gradient"/>
+		</Unit>
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
@@ -103,7 +106,10 @@
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
-		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp">
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/eigen_omp_oprod.cpp">
+			<Option target="nonlinear_conjugate_gradient"/>
+		</Unit>
+		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/log_reg_random_test.cpp">
 			<Option target="nonlinear_conjugate_gradient"/>
 		</Unit>
 		<Unit filename="/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/CMakeLists.txt">

@@ -77,75 +77,90 @@ include CMakeFiles/nonlinear_conjugate_gradient.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
 
-CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o: CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
-CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o: ../tests/random_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp
-
-CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.i
-
-CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.s
-
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o: CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o: ../src/problem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.i
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.s
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o: CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o: ../src/cg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.i
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.s
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o: CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o: ../src/line_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.i
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.s
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o: CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o: ../tests/log_reg_random_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/log_reg_random_test.cpp
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/log_reg_random_test.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.i
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/log_reg_random_test.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.s
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o: CMakeFiles/nonlinear_conjugate_gradient.dir/flags.make
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o: ../tests/eigen_omp_oprod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o -c /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/eigen_omp_oprod.cpp
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/eigen_omp_oprod.cpp > CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.i
+
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/eigen_omp_oprod.cpp -o CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.s
 
 # Object files for target nonlinear_conjugate_gradient
 nonlinear_conjugate_gradient_OBJECTS = \
-"CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o" \
 "CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o" \
 "CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o" \
-"CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o"
+"CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o" \
+"CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o" \
+"CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o"
 
 # External object files for target nonlinear_conjugate_gradient
 nonlinear_conjugate_gradient_EXTERNAL_OBJECTS =
 
-nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o
 nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o
 nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o
 nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o
+nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o
+nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o
 nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/build.make
 nonlinear_conjugate_gradient: CMakeFiles/nonlinear_conjugate_gradient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable nonlinear_conjugate_gradient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable nonlinear_conjugate_gradient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nonlinear_conjugate_gradient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

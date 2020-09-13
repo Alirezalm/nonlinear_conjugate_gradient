@@ -3,15 +3,29 @@
 
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/cg.cpp.o
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp
+CMakeFiles/nonlinear_conjugate_gradient.dir/src/line_search.cpp.o
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp
 CMakeFiles/nonlinear_conjugate_gradient.dir/src/problem.cpp.o
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp
-CMakeFiles/nonlinear_conjugate_gradient.dir/tests/random_test.cpp.o
- /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/eigen_omp_oprod.cpp.o
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/eigen_omp_oprod.cpp
+CMakeFiles/nonlinear_conjugate_gradient.dir/tests/log_reg_random_test.cpp.o
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h
  /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
- /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/random_test.cpp
+ /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/log_reg_random_test.cpp
