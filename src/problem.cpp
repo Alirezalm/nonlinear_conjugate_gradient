@@ -9,8 +9,8 @@ Problem::Problem(objtype &obj_func, gradtype &grad_func) {
     this->grad_func = grad_func;
 }
 
-void Problem::solve(std::string &method, vec &init) {
+Results Problem::solve(std::string &method, vec &init) {
     if (method == "CG") {
-        cg(obj_func, grad_func, init);
+       return cg(obj_func, grad_func, init);
     };
 }

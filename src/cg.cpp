@@ -4,7 +4,7 @@
 
 #include "../includes/cg.h"
 
-void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
+Results cg(objtype &obj_func, gradtype &grad_func, vec &init) {
 
     auto start = time_measure::high_resolution_clock::now(); // start measuring time
     vec &x = init; // vector of initial condition
@@ -16,27 +16,24 @@ void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
     scalar eps = 5e-3;
     scalar alpha, alpha_old = 0.01; //step length
     scalar beta;
+    scalar oldg_norm;
     const int max_iter = 5000;
     int iter = 0;
 
     while ((error > eps) && iter < max_iter) {
         iter++;
-//        if (error <= 1e-3){
-//            alpha = alpha_old;
-//        }else{
-            alpha = line_search(obj_func,grad_func, x, p, alpha_old);
-//            alpha = 0.1;
-//        }
+        alpha = line_search(obj_func,grad_func, x, p, alpha_old);
         x += alpha * p;
-
+        f = obj_func(x);
         g = grad_func(x);
-        beta = (g.dot(g)) / (old_g.dot(old_g));
+//        beta = (g.dot(g)) / (old_g.dot(old_g));
         old_g = g;
-
+        oldg_norm = old_g.norm();
+        beta = (g.dot((g - old_g))/oldg_norm * oldg_norm);
         p = -g + (beta * p);
         alpha_old = alpha;
         error = g.norm();
-        f = obj_func(x);
+
 
 //        std::cout << "iter " << iter << " fval: " << f << " error: " << error << " alpha: " << alpha << std::endl;
 
@@ -55,4 +52,6 @@ void cg(objtype &obj_func, gradtype &grad_func, vec &init) {
     } else {
         std::cout << "  -solver time: " << duration.count() * 1e-3 << " seconds" << std::endl;
     }
+    Results res{f, x};
+    return res;
 }

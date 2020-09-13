@@ -13,7 +13,7 @@ class Problem {//optimization problem class
 public:
     Problem(objtype &obj_func, gradtype &grad_func); // default constructor
 
-    void solve(std::string &method, vec &init); //nonlinear conjugate gradient solver starts
+    Results solve(std::string &method, vec &init); //nonlinear conjugate gradient solver starts
 
 private:
     objtype obj_func; //user function

@@ -13,6 +13,8 @@ line_search.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h
 eigen_omp_oprod.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h
+results.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/results.h
 
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/eigen_omp_oprod.h
 external_libs.h
@@ -38,7 +40,33 @@ omp.h
 external_libs.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
 
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
+cg.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/results.h
+external_libs.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/external_libs.h
+
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/cg.cpp
 ../includes/cg.h
 /home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/cg.h
+
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/line_search.cpp
+../includes/line_search.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/line_search.h
+
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/problem.cpp
+../includes/problem.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
+
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/src/results.cpp
+../includes/results.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/results.h
+
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/tests/log_reg_random_test.cpp
+iostream
+-
+../includes/problem.h
+/home/alireza/PhDRepository/implementations/DIPOA/nonlinear_conjugate_gradient/includes/problem.h
 
