@@ -5,7 +5,7 @@
  * Test file
  */
 int main() {
-//    srand(clock());
+    srand(clock());
 //    omp_set_num_threads(4);
 
 //    Eigen::setNbThreads(8);
