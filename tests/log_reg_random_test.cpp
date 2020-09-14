@@ -48,7 +48,6 @@ int main() {
 
     Problem P{f, grad};
     std::string method = "CG";
-//#pragma  omp parallel
 
 
     Results res = P.solve(method, theta);
