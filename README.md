@@ -1,2 +1,2 @@
 # nonlinear_conjugate_gradient
-This package implements nonlinear conjugate gradient method to be used in DIPOA algorithm.
+This package implements nonlinear conjugate gradient method for general convex functions.
